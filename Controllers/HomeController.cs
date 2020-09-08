@@ -15,7 +15,7 @@ namespace NetCore3.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            //modificaciones que quiero hacer
+            string boler = "que vamos a hacer";
             _logger = logger;
         }
 
